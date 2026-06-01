@@ -62,7 +62,7 @@ Like most drops, you can launch with placeholder art and "reveal" the real desig
 1. **Before/during the sale (pre-reveal)** — point `baseURI` at one placeholder file, with no trailing slash:
 
    ```solidity
-   setBaseURI("ipfs://PLACEHOLDER_CID/prereveal")
+   setBaseURI("ipfs://PREREVEAL_CID")
    ```
 
    Every token shows the same "coming soon" art. (Leaving `baseURI` empty works too — `tokenURI` just returns `""`.)
